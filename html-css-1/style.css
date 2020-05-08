@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');
+
+body {
+    background-color: white;
+}
+
+header {
+    width: 100vw;
+    height: 6vh;
+    background-color: #707070;
+}
+
+header p {
+    width: auto;
+    color: white;
+    margin: 15px;
+    float: left;
+    font-size: 30px;
+
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    margin-right: 14px;
+    float: right;
+    align-items: center;
+}
+
+.you-know-container {
+    width: 100vw;
+    height: 32vh;
+    padding: 20px;
+    justify-content: center;
+    background-color: black;
+    color: #E9E05F;
+}
+
+.you-know-container h1 {
+    text-align: center;
+    margin: auto, 0;
+    font-size: 120px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.auqa-box {
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #A4FFD7;
+}
+
+.orange-box {
+    width: 600px;
+    height: 160px;
+    margin: 30px;
+    padding: 120px;
+    display: inline-block;
+    background-color: #FFC36C;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.words-container {
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+}
+
+.elephant-pic {
+    width: 300px;
+    height:200px;
+    padding: 35px
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #3A3A56;
+}
